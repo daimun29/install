@@ -11,20 +11,10 @@ Buat file skrip, misalnya install_all.sh:
 ---
 
 ### Cara Menggunakan Skrip
-1. Salin skrip di atas ke file install_all.sh di VPS Anda:
-   bash
-   nano install.sh
-   
-   Tempel skrip di atas, lalu simpan dan keluar (CTRL + X, lalu Y, lalu Enter).
-
-2. Berikan izin eksekusi pada skrip:
-   bash
-   chmod +x install.sh
-   
-
-3. Jalankan skrip:
-   bash
-   ./install_all.sh
+1. git clone https://github.com/daimun29/install.git
+2. cd install
+3. chmod +x install.sh
+3. ./install_all.sh
    
 
 ---
