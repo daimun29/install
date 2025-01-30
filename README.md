@@ -14,7 +14,7 @@ Buat file skrip, misalnya install_all.sh:
 1. git clone https://github.com/daimun29/install.git
 2. cd install
 3. chmod +x install.sh
-3. ./install_all.sh
+3. ./install.sh
    
 
 ---
