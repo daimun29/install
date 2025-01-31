@@ -48,9 +48,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
 apt update
 apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-# Tambahkan user ke grup Docker (agar bisa menjalankan Docker tanpa sudo)
-usermod -aG docker $SUDO_USER
-
 # Instal Docker Compose (Versi Terbaru)
 curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
